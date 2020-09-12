@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.ghost:hover {
+    animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+    
+50% {
+    transform: translate(0, 50px);}
+}
